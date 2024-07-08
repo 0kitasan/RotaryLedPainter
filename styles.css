@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.canvas-container {
+    position: relative;
+}
+
+.zoom-controls {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.controls label,
+.controls input,
+.controls textarea {
+    margin: 5px 0;
+}
+
+canvas {
+    border: 1px solid #fff;
+}
